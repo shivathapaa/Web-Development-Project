@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<head>
+    <title>Project</title>
+    <meta name="viewport" content="width =device-width, initial-scale =1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width =device-width, initial-scale =1">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url(images1/third\ \(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.logo{
+    max-width: 190px;
+    cursor: pointer;
+    position: relative;
+    left: 2%;
+    top: 1%;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+    margin-right: 8%;
+    margin-top: -2.5%;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #009688;
+    font-size: 88%;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 1.5s;
+}
+.navbar ul li f a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 88%;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 1.5s;
+}
+.navbar ul li a:hover{
+    color:#33a8a8;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #33a8a8;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+.content h1{
+    margin: 20px auto;
+    font-size: 50px;
+    line-height: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+.content p{
+    width: 60%;
+    font-style: italic;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    justify-content: space-around;
+    margin: auto;
+}
+@media only screen and (max-width: 1200px){
+    .navbar ul{
+        position: absolute;
+        right: 3%;
+        top: 4%;
+    }
+    .navbar ul li a{
+        font-size: 159%;
+    }
+    .navbar ul li f a{
+        font-size: 159%;
+    }
+    .logo{
+        max-width: 27%;
+        cursor: pointer;
+        position: absolute;
+        left: 2%;
+        top: 0%;
+    }
+}
+@media screen and (max-width: 770px){
+    .logo{
+        max-width: 28%;
+        cursor: pointer;
+        position: absolute;
+        left: 2%;
+        top: 2%;
+    }
+    .navbar ul{
+        position: absolute;
+        right: -3%;
+        top: 6%;
+    }
+    .navbar ul li{
+        width: 25%;;
+        margin-left: 2px;
+    }
+    .navbar ul li.aboutus{
+        width: 29%;
+        margin-left: 55%;
+    }
+    .navbar ul li a{
+        font-size: 62%;
+        transition: 0.1s;
+    }
+    .navbar ul li f a{
+        font-size: 62%;
+        transition: 0.1s;
+    }
+    .navbar ul li::after{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 26px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+}
+#sideNav{
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #009688;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 1200px){
+    #menuBtn{
+        width: 65px;
+        height: 65px;
+        position: fixed;
+        right: 2%;
+        top: 1%;
+        border-radius: 3px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    #menuBtn img{
+        width: 45px;
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 770px){
+    #menuBtn{
+        width: 30px;
+        height: 30px;
+        background: #009688;
+        text-align: center;
+        position: fixed;
+        right: 3%;
+        top: 4%;
+        border-radius: 3px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    #menuBtn img{
+        width: 15px;
+        margin-top: 8px;
+    }
+}
+
+#introduction{
+    padding: 100px 0 20px;
+    background: #e2ebeb;
+    position: relative;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#019587,#fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.intro p{
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+    text-align: justify;
+    text-align-last:auto;
+}
+.intro-img{
+    max-width: 45%;
+    opacity: 0.2;
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    transform: translate(-50%,-50%);
+}
+@media only screen and (max-width: 1200px){
+    nav ul li{
+        list-style: none;
+        margin: 70px 20px;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 770px){
+    #sideNav{
+        width: 170px;
+        height: 100vh;
+        position: fixed;
+        right: -250px;
+        top: 0;
+        background: #009688;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 40px 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #fff;
+    }
+    .intro-img{
+        max-width: 70%;
+        top: 58%;
+    }
+}
+
+
+
+
+#survey{
+    padding: 100px 0 20px;
+    position: relative;
+    background: #dae0df;
+}
+.lit-survey p{
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+    text-align: justify;
+    text-align-last:auto;
+}
+.survey-img{
+    max-width: 45%;
+    opacity: 0.27;
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 770px){
+    .survey-img{
+        max-width: 70%;
+        top: 54%;
+    }
+}
+
+
+
+#behalf_of{
+    padding: 100px 0 20px;
+    background: #e2ebeb;
+    position: relative;
+}
+.service p{
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+    text-align: justify;
+    text-align-last:auto;
+}
+.service-img{
+    max-width: 35%;
+    opacity: 0.25;
+    position: absolute;
+    left: 50%;
+    top: 71%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 770px){
+    .service-img{
+        max-width: 70%;
+        top: 60%;
+    }
+}
+
+#conclusion{
+    width: 100%;
+    background: #dae0df;
+    padding: 70px 0;
+    position: relative;
+}
+.conclu p{
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+    text-align: justify;
+    text-align-last:auto;
+}
+.conclu h3{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 24px;
+    text-align: justify;
+    text-align-last:auto;
+}
+.conclusion-img{
+    max-width: 45%;
+    opacity: 0.25;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 770px){
+    .conclusion-img{
+        max-width: 70%;
+        top: 65%;
+    }
+}
+
+
+
+#future_update{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 20px;
+    background: #e2ebeb;
+    position: relative;
+}
+.update{
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+    text-align: justify;
+    text-align-last:auto;
+}
+.futu-img{
+    max-width: 38%;
+    opacity: 0.28;
+    position: absolute;
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%,-50%);
+
+}
+@media screen and (max-width: 770px){
+    .futu-img{
+        max-width: 70%;
+        top: 57%;
+    }
+}
+
+
+
+/* contact */
+
+#contact{
+    width: 100%;
+    background: #dae0df;
+    padding: 100px 0 20px;
+    position: relative;
+}
+.followus{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 10%;
+}
+.followus1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    opacity: 0.95;
+}
+.pro1-img, .pro2-img{
+    max-width: 16%;
+    border-radius: 5%;
+    z-index: 5;
+    position: absolute;
+}
+.pro1-img{
+    position: relative;
+    left: 8%;
+}
+.pro2-img{
+    position: relative;
+    right: 8%;
+}
+.footer-left,.footer-right{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-left{
+    position: relative;
+    left: 8%;
+}
+.footer-right{
+    position: relative;
+    right: 8%;
+}
+.footer-left .fa,.footer-right .fa{
+    font-size: 20px;
+    color: #009688;
+    margin: 10px;
+}
+.footer-left .button{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: rgb(235, 232, 232);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.footer-right .button{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: rgb(235, 232, 232);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.footer-left .button:hover{
+    width: 150px;
+}
+.footer-right .button:hover{
+    width: 150px;
+}
+.footer-left .button .icon{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    color: #009688;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+}
+.footer-right .button .icon{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    color: #009688;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+}
+.footer-left .button:nth-child(1):hover .icon, .footer-right .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.footer-left .button:nth-child(2):hover .icon, .footer-right .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.footer-left .button:nth-child(3):hover .icon, .footer-right .button:nth-child(3):hover .icon{
+    background: #E1306C;
+}
+.footer-left .button .icon i, .footer-right .button .icon i{
+    font-size: 25px;
+    line-height: 15px;
+    position: relative;
+    left: -4px;
+    transition: all 0.3s ease-out;
+}
+.footer-left .button:hover .icon i, .footer-right .button:hover .icon i{
+    color: #fff;
+}
+.footer-left .button span{
+    font-size: 14px;
+    
+    line-height: 12px;
+    margin-left: 12px;
+    position: relative;
+    top: -3px;
+    transition: all 0.3s ease-out;
+}
+.footer-right .button span{
+    font-size: 14px;
+    
+    line-height: 12px;
+    margin-left: 12px;
+    position: relative;
+    top: -3px;
+    transition: all 0.3s ease-out;
+}
+.footer-left .button:nth-child(1) span, .footer-right .button:nth-child(1) span{
+    color: #4267B2;
+}
+.footer-left .button:nth-child(2) span, .footer-right .button:nth-child(2) span{
+    color: #1DA1F2;
+}
+.footer-left .button:nth-child(3) span, .footer-right .button:nth-child(3) span{
+    color: #E1306C;
+}
+.piccon{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -38px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact1, .contact2{
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #009860;
+    font-size: 75%;
+}
+.contact1{
+    position: relative;
+    left: 10%;
+}
+.contact2 {
+    position: relative;
+    right: 10%;
+}
+.concar{
+    max-width: 35%;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+}
+.logo2-png{
+    max-width: 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.copyright{
+    float: right;
+    color: #009688;
+    font-size: 70%;
+}
+figcaption{
+    text-align: center;
+    font-size: 75%;
+    font-weight: 600;
+    color: #009680;
+    font-style: italic;
+}
+@media screen and (max-width: 770px){
+    .followus{
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 4%;
+    }
+
+    .followus1{
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .pro1-img, .pro2-img{
+        max-width: 35%;
+    }
+    .concar{
+        max-width: 32%;
+        opacity: 0.15;
+        z-index: -2;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+    }
+    .footer-left .button, .footer-right .button{
+        display: inline-block;
+        height: 26px;
+        width: 26px;
+        margin: 0 2px;
+    }
+    .footer-left .button:hover, .footer-right .button:hover{
+        width: 26px;
+    }
+    .footer-left .button .icon, .footer-right .button .icon{
+        display: inline-block;
+        height: 26px;
+        width: 26px;
+        line-height: 10px;
+    }
+    .footer-left .button .icon i, .footer-right .button .icon i{
+        font-size: 17px;
+        line-height: 4px;
+        position: relative;
+        left: -5px;
+        top: 1px;
+    }
+    .footer-left .button .icon i{
+        left: -4px;
+    }
+    .footer-left .button span, .footer-right .button span{
+        display: none;
+    }
+    .contact1, .contact2{
+        font-size: 10px;
+    }
+    .logo2-png{
+        max-width: 32%;
+        margin-top: 20px;
+    }
+    figcaption{
+        font-size: 65%;
+    }
+
+
+}
+
+</style>
+
+
+
+
+
+
+
+
+<section section="top">
+    <div class="banner">
+        <a href="1%20homepage.php"><img  src="images/logo2.png" class="logo"></a>
+        <div class="navbar">
+            <ul><div class="navbar-2">
+                <li><a href="1%20homepage.php">Home</a></li>
+                <li><a href="2%20ordermanufacturer.php">Order</a></li>
+                <li><f><a  href="#introduction">Project</a></f></li>
+                <li><a href="http://localhost/AutomobileWebProject/4%20aboutus.htm">About_Us</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Automobile Database Management System</h1>
+            <p>A college project for the automobile database management system.</p>
+        </div>
+    </div>
+</section>
+    <div id="sideNav">
+        <nav>
+        <ul>
+            <li><a href="#top">Top</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#survey">Literature Survey</a></li>
+            <li><a href="#behalf_of">On behalf of</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+            <li><a href="#future_update">Future Work</a></li>
+            <li><a href="#contact">Get Connected</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.png" alt="Menu Botton" id="menu">
+    </div>
+
+<section id="introduction">
+    <div class="title-text">
+        <p>Introduction</p>
+        <h1>About Project</h1>
+    </div>
+    <img src="images1/pngcar (2).png" style="color:blue" class="intro-img">
+    <div class="intro">
+        <p>Automobile Management System is based on analyzing and storing the data provided by the customer. Here, the service is to make an order by customers for their own basic designed automobile. The orders are place here by the customer according to their needs and requirements. The options in our project includes every small detail information about the automobile which makes customer easier to design their own custom car. <br>
+            The data provided by the customer for their custom car is stored using database which makes the company easier to access the data when needed. The project not only focuses on the orders but also on the information provided to the customer. Anyone can gather more knowledge about the automobile and its type easily during the period of their orders. <br>
+            “Service with knowledge” is the secondary motto for our project as this project is completely based on services to be given for customers at very convenient customer interface with maximum options to choose at ease including the basic knowledge of automobile and its parts. Highly featured communication through the means of the web orders is mainly focused aim of the project. 
+            <br><br><br></p>
+    </div>
+</section>
+
+
+
+<section id="survey">
+    <div class="title-text">
+        <p>Literature survey</p>
+        <h1>Related Work</h1>
+    </div>
+    <img src="images1/pngcar (5).png" style="color:blue" class="survey-img">
+    <div class="lit-survey">
+        <p>	When it comes to the loyal customers, any company has to gain trust from the customer side by providing services and offers that balance the bond between two. Nowadays, there are many companies who are providing convenient services to their customer with maximum efforts on the behalf of the customer and themselves. So, marketing is only way to attract customers towards any company which obviously takes us to the services.<br>
+            There are many companies who provide the order of the cars online with pre-made automobile designed by their own engineers. The services include the presets of the company automobile launch.  But not everyone is fond of the preset design and company’s tuning. Therefore, keeping customers choices at first, we have designed this project for the customers to make their own cars with their selected parts on the behalf of the company “Two Flames”.<br>
+            We have divided the order options for our customers to make easier for them to select their own preferences. Each and every parts of the automobile are divided to give our customers the best options to choose for their custom designed dream car. The details of the parts are provided to the customers along with options so that even the one with little knowledge can easily place their own custom car. Now there is no need for the modification as the company itself provides the customers their own first launch with their advance design. This order service can easily fulfill the dreams of many customers out there who are willing to have their own custom automobile.
+            <br><br><br></p>
+    </div>
+</section>
+
+
+
+
+<section id="behalf_of">
+    <div class="title-text">
+        <p>Services</p>
+        <h1>On The Behalf Of</h1>
+    </div>
+    <img src="images1/pngcar (11).png" style="color:blue" class="service-img">
+    <div class="service">
+        <p>The main theme of this project is developed by the feedback and the opinion of the customers who were always grateful of the company’s work. All this idea is created due to customers interest and the company’s permission for this mega change in manufacturing of the custom automobile. Even though it seems one sided decision, this project is actually supported by the collaboration of employees and the Board of Directors of the company “Two Flames”.<br>
+            The company is more focused on giving best services to the customers at ease. Therefore, the project is customer oriented and taken according the customer needs under the supervision of the company.<br>
+            For the first time in automobile sector, “Two Flames” is going to manufacture the custom automobile with all online ordering service. This is going to be beneficial for the customers as the service is going to be one of the best large-scale multi optional manufacturing process. This is obviously going to fulfill the dreams of many customers for their custom automobile.
+            <br><br><br></p>
+    </div>
+</section>
+
+
+
+<section id="conclusion">
+    <div class="title-text">
+        <p>Conclusion</p>
+        <h1>What and Why</h1>
+    </div>
+    <img src="images1/pngcar (12).png" style="color:blue" class="conclusion-img">
+    <div class="conclu">
+        <h3>Advantages :</h3><p>i.  Customers can easily make an order of their own designed custom automobile.
+            <br>ii. The division of parts allows customer to have detailed organization of their automobile.
+            <br>iii. Customers can now easily web-order for their own drive without being in person with technicians which decreases the cost of reaching company’s showrooms.
+            <br>iv. The data collected in the process is stored using database management system which can be accessed anytime by the company.
+            <br>v. Since it is a web-server the data can be stored for a long period of time.
+            <br><br></p>
+        <h3>Conclusion :</h3><p>
+            Integrating database technologies in automobile management systems is considered controversial by many. The general conception of database systems is that they are highly resource demanding with respect to memory consumption.<br>
+            This project has presented real-time database concepts through the implementation of the automobile management system. The ideas used in this project was overall intended towards database to be integrated. However, the focal point all remained about the convenient services to be given for customers with easy customer interface options. 
+            <br>The services that are given can be a great leap for the development of the automobile services from the web-practices. Not only the order but also the information centric feature of the project can be beneficial for any customer to gain some more knowledge in the sector of automobile services.
+            <br>It is our belief that, due to gradually increasing volume of the services to be provided, the automobile management system will be information-centric just as so many other systems outside. These services will be clearer and even more appropriate when other new features are introduced frequently.
+            <br><br><br>
+        </p>
+    </div>
+</section>
+
+<section id="future_update">
+    <div class="title-text">
+        <p>Future Wrok</p>
+        <h1>Upcoming Updates</h1>
+    </div>
+    <img src="images1/pngcar (1).png" style="color:blue" class="futu-img">
+    <div class="update">
+        <p>The work in this project consists of a number of run-time concepts intended for application in automobile management system. These concepts enable the introduction of a higher-level data management. The library of the run-time components is very limited here so it can be further be improved by the proper analysis of the project design and features. 
+            <br>web-designs and the options are needed to be updated with time to provide the latest design and the parts for customers to choose. Supportive team in the live chatting system can be added after the services runs in stable state. The mechanism of the data storage and management can be improved and kept more secured so that the records are kept safe. However, the improvement of the services in monthly basis can be much more effective for the more smoothness in customer interface.
+            <br>In competitive world, the services provided needs to be improved with time. The feedback provided by the customers will be a great method to improve the services with frequent incremental updates. For now, the update of components which are left behind may need to be added in short period of time for deeper classification of data to be used in the manufacturing process.
+            <br><br><br></p>
+    </div>
+</section>
+<section id="contact">
+    <div class="title-text">
+        <p>Contact</p>
+        <h1>Get Connected</h1>
+    </div>
+    <div class="followus1">
+        <img src="images1/pnglogo (3).1.png" class="concar">
+        <img src="images/pro1.jpg" style="color:blue" alt="Admin Shiva Thapa" class="pro1-img">
+        <img src="images/pro2.jpg" style="color:blue" alt="Admin Suraj Kc" class="pro2-img">
+    </div>
+    <div class="followus">
+        <div class="footer-left">
+            <div class="button">
+                <div class="icon">
+                    <a href="https://m.facebook.com/profile.php?id=100011981942027" style="color: #4267B2"><i class="fa fa-facebook"></i></a>
+                </div>
+                <a  href="https://m.facebook.com/profile.php?id=100011981942027" style="text-decoration: none;"><span>Facebook</span></a>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <a  href="https://twitter.com/ShivaTh87362106" style="color: #1DA1F2"><i class="fa fa-twitter"></i></a>
+                </div>
+                <a  href="https://twitter.com/ShivaTh87362106" style="text-decoration: none;"><span>Twitter</span></a>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <a  href="https://www.instagram.com/shiva_thapaa/"  style="color: #E1306C"><i class="fa fa-instagram"></i></a>
+                </div>
+                <a  href="https://www.instagram.com/shiva_thapaa/" style="text-decoration: none;"><span>Instagram</span></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="button">
+                <div class="icon">
+                    <a href="https://m.facebook.com/profile.php?id=100003905778059" style="color: #4267B2"><i class="fa fa-facebook"></i></a>
+                </div>
+                <a  href="https://m.facebook.com/profile.php?id=100003905778059" style="text-decoration: none;"><span>Facebook</span></a>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <a  href="https://twitter.com/ShivaTh87362106" style="color: #1DA1F2"><i class="fa fa-twitter"></i></a>
+                </div>
+                <a  href="https://twitter.com/ShivaTh87362106" style="text-decoration: none;"><span>Twitter</span></a>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <a  href="https://www.instagram.com/s_u_r_a_z/" style="color: #E1306C"><i class="fa fa-instagram"></i></a>
+                </div>
+                <a  href="https://www.instagram.com/s_u_r_a_z/" style="text-decoration: none;"><span>Instagram</span></a>
+            </div>
+        </div>
+        <div class="piccon"><div class="contact1"><p>@Shiva_Thapa<br>+977 9843805352, <br> +91 9986403657</p></div>
+        <div class="contact2"><p>@Suraj_Kc<br>+977 9840279386, <br>+91 8095708771</p></div></div>
+    </div>
+    <br><br><br>
+    <a href="#top">
+    <img src="images/logo2.png" style="color:blue"  alt="Company Logo" class="logo2-png"></a>
+    <figcaption>We build your imagination!</figcaption>
+    <div class="copyright">
+        <p>©ThapaKaji & Suraj</p>
+    </div>
+</section>
+    
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        
+        sideNav.style.right = "-250px";
+        
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+        
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });    
+    </script>
+</body>
+</html>
