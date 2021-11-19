@@ -26,7 +26,7 @@ To use this project:
 4. Open homepage using localhost as hostname 
 
 ## Project Report
-For more details, you can download project report of this project from  [here](https://docs.google.com/document/d/1oQfV2X3evLK2xxkgqceLTofOjnvCyKs0/edit?usp=sharing&ouid=113121625212245256886&rtpof=true&sd=true "Project Report").
+For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/1iJdPo8lJ2HS8DND1CQs1OGzPNjbHknhs/view?usp=sharing "Project Report").
 <br>
 <br>
 <br>
