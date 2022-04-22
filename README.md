@@ -31,4 +31,4 @@ For more details, you can download project report of this project from  [here](h
 <br>
 <br>
 ### Disclaimer
-Images used in this project are form different sources. All the images are used for educational purpose only. I do not owe any images used here, it belongs to its rightful owner.
+Images used in this project are form different sources. All the images are used for educational purpose only. I do not own any images used here, it belongs to its rightful owner.
