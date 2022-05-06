@@ -369,7 +369,7 @@ figcaption{
 </style>
 
     
-    <header><a href="1%20homepage.php"><img src="images/logo2.png" class="logo"></a>
+    <header><a href="../index.php"><img src="images/logo2.png" class="logo"></a>
     </header>
     <section class="banner-area">
         <div class="banner-img"></div>
@@ -409,7 +409,7 @@ figcaption{
             </div>
         </div></div>
         <div class="footer">
-            <a style="text-decoration:none" href="1%20homepage.php">
+            <a style="text-decoration:none" href="../index.php">
                 <img src="images/logo2.png" style="color:blue"  alt="Company Logo" class="logo2-png"></a>
                 <figcaption>We build your imagination!</figcaption>
         </div>

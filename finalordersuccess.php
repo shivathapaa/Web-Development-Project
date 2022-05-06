@@ -123,7 +123,7 @@ session_start();
 
 
     <section id="banner">
-        <a href="1%20homepage.php"><img  src="images/logo2.png" class="logo"></a>
+        <a href="../index.php"><img  src="images/logo2.png" class="logo"></a>
         <div class="banner-text">
             <h1><?php if(isset($_SESSION['passingfirstname'])){
            echo $_SESSION['passingfirstname']; echo ",";
@@ -132,8 +132,8 @@ session_start();
             <p>Delivery date, time and amount may be taken into consideration in direct contact with you. You will be called very soon!</p>
             <h3>We build your imagination!</h3>
             <div class="banner-btn">
-                <a href="1%20homepage.php"><span></span>Home</a>
-                <a href="http://localhost/AutomobileWebProject/4%20aboutus.htm"><span></span>Contact Us</a>
+                <a href="../index.php"><span></span>Home</a>
+                <a href="/4%20aboutus.htm"><span></span>Contact Us</a>
             </div>
         </div>
     

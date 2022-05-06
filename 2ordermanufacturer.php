@@ -9,9 +9,9 @@ $automobiletype = $_POST['automobiletype'];
 
 if(!empty($customerid) || !empty($country) || !empty($manufacturerid) || !empty($automobiletype)){
     $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "project";
+    $dbUsername = "id18887859_root";
+    $dbPassword = "[46L7sjAxW44!LxK";
+    $dbname = "id18887859_project";
 
     // Create Connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -51,17 +51,17 @@ if(!empty($customerid) || !empty($country) || !empty($manufacturerid) || !empty(
                     $stmt = $conn->prepare($INSERT);
                     $stmt->bind_param("ssss", $customerid, $country, $manufacturerid, $automobiletype);
                     $stmt->execute();
-                    header('Location: http://localhost/AutomobileWebProject/2.1%20orderpage.php');
+                    header('Location: /AutomobileWebProject/2.1%20orderpage.php');
                     exit;
                 }else{
-                    header('Location: http://localhost/AutomobileWebProject/ordersuccessful.php');
+                    header('Location: /AutomobileWebProject/ordersuccessful.php');
                     exit;
                 }
             }else{
                 echo '<script> alert( "Invalid Customer ID!")</script>';
                 ?>
                 <script>
-                    location.replace("http://localhost/AutomobileWebProject/2%20ordermanufacturer.php");
+                    location.replace("/AutomobileWebProject/2%20ordermanufacturer.php");
                 </script>
                 <?php
             }

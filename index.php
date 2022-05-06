@@ -21,7 +21,7 @@
         font-family: 'Poppins', sans-serif;
     }
     #banner{
-        background: linear-gradient(rgba(0,0,0,0.5),#009688), url(images/car1.jpg);
+        background: linear-gradient(rgba(0,0,0,0.5),#009688), url(AutomobileWebProject/images/car1.jpg);
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
@@ -762,13 +762,13 @@
 
 
 <section id="banner">
-    <a href="#banner"><img  src="images/logo2.1.png" class="logo"></a>
+    <a href="#banner"><img  src="AutomobileWebProject/images/logo2.1.png" class="logo"></a>
     <div class="banner-text">
         <h1>Automobile Manufacturer</h1>
         <p>Make Your Customized Car</p>
         <div class="banner-btn">
-            <a href="5%20loginpage.htm"><span></span>Login</a>
-            <a href="3%20project.htm"><span></span>Find More</a>
+            <a href="AutomobileWebProject/5%20loginpage.htm"><span></span>Login</a>
+            <a href="AutomobileWebProject/3%20project.htm"><span></span>Find More</a>
         </div>
     </div>
 
@@ -787,7 +787,7 @@
     </nav>
 </div>
 <div id="menuBtn">
-    <img src="images/menu.png" alt="Menu Botton" id="menu">
+    <img src="AutomobileWebProject/images/menu.png" alt="Menu Botton" id="menu">
 </div>
 
 <!-- Features -->
@@ -828,7 +828,7 @@
         </div>
     </div>
     <div class="features-img">
-        <img src="images/car4.jpg" style="color:blue" alt="Car Image">
+        <img src="AutomobileWebProject/images/car4.jpg" style="color:blue" alt="Car Image">
     </div>
 
 </div>
@@ -845,7 +845,7 @@
     </div>
     <div class="service-box">
         <div class="single-service">
-            <img src="images1/newcar3.jpg" style="color:blue" alt="Front-face Car Image">
+            <img src="AutomobileWebProject/images1/newcar3.jpg" style="color:blue" alt="Front-face Car Image">
             <div class="overlay"></div>
             <div class="service-desc">
                 <h3>Automobile Manufacturer</h3>
@@ -854,7 +854,7 @@
             </div>
         </div>
         <div class="single-service">
-            <img src="images/int1.jpg" style="color:blue" alt="Car Interior">
+            <img src="AutomobileWebProject/images/int1.jpg" style="color:blue" alt="Car Interior">
             <div class="overlay"></div>
             <div class="service-desc">
                 <h3>Automobile Design</h3>
@@ -863,7 +863,7 @@
             </div>
         </div>
         <div class="single-service">
-            <img src="images1/newcar1.jpg" style="color:blue" alt="Car Image">
+            <img src="AutomobileWebProject/images1/newcar1.jpg" style="color:blue" alt="Car Image">
             <div class="overlay"></div>
             <div class="service-desc">
                 <h3>Automobile Brand</h3>
@@ -872,7 +872,7 @@
             </div>
         </div>
         <div class="single-service">
-            <img src="images1/newcar6.jpg" style="color:blue" alt="Back-face Car">
+            <img src="AutomobileWebProject/images1/newcar6.jpg" style="color:blue" alt="Back-face Car">
             <div class="overlay"></div>
             <div class="service-desc">
                 <h3>Automobile Parts</h3>
@@ -896,17 +896,17 @@
     <div class="testimonial-row">
         <div class="testimonial-col">
             <div class="user">
-                <b><img src="images/user1.jpg" style="color:blue" alt="Commenter Image"></b>
+                <b><img src="AutomobileWebProject/images/user1.jpg" style="color:blue" alt="Commenter Image"></b>
                 <div class="user-info">
                     <h4>Dr. Mihiar Ayoubi<a  href="https://www.instagram.com/rollsroycecars/?hl=en"><i class="fa fa-instagram"></i></a></h4>
                     <p><a style="text-decoration:none" href="https://www.instagram.com/rollsroycecars/?hl=en"><small>@rollsroycecars</small></a></p>
                 </div>
             </div>
-            <p>Automobile industry has always been very efficient for bringing luxury and ease in one's life. Taking automobile industry in next step <a href="#banner" style="text-decoration:none; color:MediumSeaGreen;" ><i>Two Flames</i></a>  is providing services to customer where customer designe outline and company engineers a custom automobile in concordance with top automobile companies.</p>
+            <p>Automobile industry has always been very efficient for bringing luxury and ease in one's life. Taking automobile industry in next step <a href="#banner" style="text-decoration:none; color:MediumSeaGreen;" ><i>Two Flames</i></a>  is providing services to customer where customer designe outline and company engineers a custom automobile in concordance with top automobile companies. (Disclaimer: These are not his words. It is just for project contents.)</p>
         </div>
         <div class="testimonial-col">
             <div class="user">
-                <b><img src="images/pro1.jpg" style="color:blue" alt="Commenter Image"></b>
+                <b><img src="AutomobileWebProject/images/pro1.jpg" style="color:blue" alt="Commenter Image"></b>
                 <div class="user-info">
                     <h4>Shiva Thapa<a  href="https://www.instagram.com/shiva_thapaa/"><i class="fa fa-instagram"></i></a></h4>
                     <p><a style="text-decoration:none" href="https://www.instagram.com/shiva_thapaa/"><small>@shivathapa</small></a></p>
@@ -916,7 +916,7 @@
         </div>
         <div class="testimonial-col">
             <div class="user">
-                <b><img src="images/pro2.jpg" style="color:blue" alt="Commenter Image"></b>
+                <b><img src="AutomobileWebProject/images/pro2.jpg" style="color:blue" alt="Commenter Image"></b>
                 <div class="user-info">
                     <h4>Suraj Kc<a  href="https://www.instagram.com/s_u_r_a_z/"><i class="fa fa-instagram"></i></a></h4>
                     <p><a style="text-decoration:none" href="https://www.instagram.com/s_u_r_a_z/"><small>@surajkc</small></a></p>
@@ -935,7 +935,7 @@
         <p>MEET US</p>
         <h1>Make Order</h1>
     </div>
-    <img src="images1/pngcar (3).png" style="color:blue" class="meetus-img">
+    <img src="AutomobileWebProject/images1/pngcar (3).png" style="color:blue" class="meetus-img">
     <div class="meetus-row">
     <div class="meetus-left">
         <h1>Service Hour</h1>
@@ -962,9 +962,9 @@
         <p>FOLLOW US ON</p>
     </div>
     <div class="followus1">
-        <img src="images1/realcar.png" class="concar">
-        <img src="images/pro1.jpg" style="color:blue" alt="Admin Shiva Thapa" class="pro1-img">
-        <img src="images/pro2.jpg" style="color:blue" alt="Admin Suraj Kc" class="pro2-img">
+        <img src="AutomobileWebProject/images1/realcar.png" class="concar">
+        <img src="AutomobileWebProject/images/pro1.jpg" style="color:blue" alt="Admin Shiva Thapa" class="pro1-img">
+        <img src="AutomobileWebProject/images/pro2.jpg" style="color:blue" alt="Admin Suraj Kc" class="pro2-img">
     </div>
     <div class="followus">
         <div class="footer-left">
@@ -1012,7 +1012,7 @@
     </div>
     <br><br><br>
     <a href="#banner">
-    <img src="images/logo2.png"  style="color:blue"  alt="Company Logo" class="logo2-png"></a>
+    <img src="AutomobileWebProject/images/logo2.png"  style="color:blue"  alt="Company Logo" class="logo2-png"></a>
     <figcaption>We build your imagination!</figcaption>
     <div class="copyright">
         <p>©ThapaKaji & Suraj</p>
@@ -1030,11 +1030,11 @@ sideNav.style.right = "-250px";
 menuBtn.onclick = function(){
     if(sideNav.style.right == "-250px"){
         sideNav.style.right = "0";
-        menu.src = "images/close.png";
+        menu.src = "AutomobileWebProject/images/close.png";
     }
     else{
         sideNav.style.right = "-250px";
-        menu.src = "images/menu.png";
+        menu.src = "AutomobileWebProject/images/menu.png";
     }
 }
 

@@ -3,7 +3,10 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
--- Database: `project`
+-- Host: `localhost`
+-- Database Name: `id18887859_project`
+-- Database Password: `[46L7sjAxW44!LxK`
+-- Database Username: `id18887859_root`
 
 
 -- Table structure for table `adminlogin`

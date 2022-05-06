@@ -11,9 +11,9 @@ if (isset($_SESSION['emailcheck'])){
 
     if (!empty($customerid)){
         $host = "localhost";
-        $dbUsername = "root";
-        $dbPassword = "";
-        $dbname = "project";
+        $dbUsername = "id18887859_root";
+        $dbPassword = "[46L7sjAxW44!LxK";
+        $dbname = "id18887859_project";
 
         // Create Connection
         $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -47,10 +47,10 @@ if (isset($_SESSION['emailcheck'])){
                             $stmt = $conn->prepare($INSERT);
                             $stmt->bind_param("sss", $customerid, $electricalengine, $thermalengine);
                             $stmt->execute();
-                            header('Location: http://localhost/AutomobileWebProject/2.3%20delivery.php');
+                            header('Location: /AutomobileWebProject/2.3%20delivery.php');
                             exit;
                         }else{
-                            header('Location: http://localhost/AutomobileWebProject/ordersuccessful.php');
+                            header('Location: /AutomobileWebProject/ordersuccessful.php');
                             exit;
                         }
                     }else{
@@ -58,13 +58,11 @@ if (isset($_SESSION['emailcheck'])){
                         ?>
                        
                         <script>
-                            location.replace("http://localhost/AutomobileWebProject/2.2%20orderpage2.php");
+                            location.replace("/AutomobileWebProject/2.2%20orderpage2.php");
                         </script>
                         <?php
                     }
                 }
-
-
 
             $stmt->close();
             $conn->close();
@@ -78,7 +76,7 @@ if (isset($_SESSION['emailcheck'])){
     ?>
 
     <script>
-        location.replace("http://localhost/AutomobileWebProject/1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }

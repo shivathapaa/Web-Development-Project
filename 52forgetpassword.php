@@ -8,9 +8,9 @@ $emailid = $_POST['emailid'];
 
 if (!empty($firstname) || !empty($lastname) || !empty($contact) || !empty($fulladdress) || !empty($emailid)){
     $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "project";
+    $dbUsername = "id18887859_root";
+    $dbPassword = "[46L7sjAxW44!LxK";
+    $dbname = "id18887859_project";
 
     // Create Connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -49,7 +49,7 @@ if (!empty($firstname) || !empty($lastname) || !empty($contact) || !empty($fulla
                             echo '<script>alert("Message Sent!")</script>'; 
                             ?>
                             <script>
-                                location.replace("http://localhost/AutomobileWebProject/forgetgetbacksoon.php");
+                                location.replace("/AutomobileWebProject/forgetgetbacksoon.php");
                             </script>
                                 
                             <?php
@@ -57,13 +57,13 @@ if (!empty($firstname) || !empty($lastname) || !empty($contact) || !empty($fulla
                             ?>
                                 echo '<script> alert( "Invalid Email!")</script>';
                             <script>
-                                location.replace("http://localhost/AutomobileWebProject/5.2%20forgetpassword.htm");
+                                location.replace("/AutomobileWebProject/5.2%20forgetpassword.htm");
                             </script>
                             <?php
                         }
 
                     }else{
-                        header('Location: http://localhost/AutomobileWebProject/forcontactdirect.php');
+                        header('Location: /AutomobileWebProject/forcontactdirect.php');
                         exit;
                     }
                 }

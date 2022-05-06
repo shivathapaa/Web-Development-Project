@@ -1,4 +1,3 @@
-
 <?php
 
 session_start();
@@ -8,7 +7,7 @@ if(!isset($_SESSION['adminpass'])){
     ?>
 
     <script>
-        location.replace("1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }
@@ -896,12 +895,12 @@ footer{
 
 
 
-    <header><a href="1%20homepage.php"><img src="images/logo2.png" class="logo"></a>
+    <header><a href="../index.php"><img src="images/logo2.png" class="logo"></a>
         <div class="navbar">
             <ul><div class="navbar-2">
-            <li><a href="1%20homepage.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a href="2%20ordermanufacturer.php">Order</a></li>
-            <li><a href="http://localhost/AutomobileWebProject/3%20project.htm">Project</a></li>
+            <li><a href="3%20project.htm">Project</a></li>
             <li><f><a href="">About Us</a></f></li>
             </div>
         </ul>
@@ -970,7 +969,7 @@ footer{
             </li>
             <li>
                 <h4>Service</h4>
-                <p><a href="1%20homepage.php" style="text-decoration:none; color:rgb(77, 82, 79);" ><i>Two Flames</i></a> company has been providing many services since 2019 but it was only possible to order the automobile in person with the specialists. This service has already taken benefits from the different schemes but it was difficult to handel and manage time by the customer for ordering their rides. By this website we have tried to provide you same service at ease by online method. Here, you can easily order your custom automobile.</p>
+                <p><a href="../index.php" style="text-decoration:none; color:rgb(77, 82, 79);" ><i>Two Flames</i></a> company has been providing many services since 2019 but it was only possible to order the automobile in person with the specialists. This service has already taken benefits from the different schemes but it was difficult to handel and manage time by the customer for ordering their rides. By this website we have tried to provide you same service at ease by online method. Here, you can easily order your custom automobile.</p>
             </li>
         </ul>
     </section>
@@ -1063,7 +1062,7 @@ footer{
             <div class="contact2"><p>@Suraj_Kc<br>+977 9840279386, <br>+91 8095708771</p></div></div>
         </div>
     </section>
-    <a style="text-decoration:none" href="1%20homepage.php">
+    <a style="text-decoration:none" href="../index.php">
         <img src="images/logo2.png" style="color:blue"  alt="Company Logo" class="logo2-png"></a>
         <figcaption>We build your imagination!</figcaption>
     <footer>

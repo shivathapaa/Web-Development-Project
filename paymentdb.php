@@ -21,9 +21,9 @@ if (isset($_SESSION['emailcheck'])){
 
     if (!empty($fullname) || !empty($email) || !empty($aadress) || !empty($city) || !empty($customerid) || !empty($sstate) || !empty($zip) || !empty($cname) || !empty($ccnum) || !empty($expmonth) || !empty($expyear) || !empty($cvv)) {
         $host = "localhost";
-        $dbUsername = "root";
-        $dbPassword = "";
-        $dbname = "project";
+        $dbUsername = "id18887859_root";
+        $dbPassword = "[46L7sjAxW44!LxK";
+        $dbname = "id18887859_project";
 
         // Create Connection
         $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -58,10 +58,10 @@ if (isset($_SESSION['emailcheck'])){
                         $stmt = $conn->prepare($INSERT);
                         $stmt->bind_param("ssssssssssss", $customerid, $fullname, $email, $aadress, $city, $sstate, $zip, $cname, $ccnum, $expmonth, $expyear, $cvv);
                         $stmt->execute();
-                        header('Location: http://localhost/AutomobileWebProject/2.4%20feedback.php');
+                        header('Location: 2.4%20feedback.php');
                         exit;
                     }else{
-                        header('Location: http://localhost/AutomobileWebProject/ordersuccessful.php');
+                        header('Location: ordersuccessful.php');
                         exit;
                     }
                 }else{
@@ -86,7 +86,7 @@ if (isset($_SESSION['emailcheck'])){
     ?>
 
     <script>
-        location.replace("1%20homepage.php");
+        location.replace("../../index.php");
     </script>
     <?php
 }
