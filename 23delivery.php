@@ -11,9 +11,9 @@ if (isset($_SESSION['emailcheck'])){
 
     if (!empty($customerid) || !empty($deliverytype) || !empty($deliverylocation) || !empty($deliverydate) || !empty($deliverytime)){
         $host = "localhost";
-        $dbUsername = "root";
-        $dbPassword = "";
-        $dbname = "project";
+        $dbUsername = "id18887859_root";
+        $dbPassword = "[46L7sjAxW44!LxK";
+        $dbname = "id18887859_project";
 
         // Create Connection
         $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -47,10 +47,10 @@ if (isset($_SESSION['emailcheck'])){
                             $stmt = $conn->prepare($INSERT);
                             $stmt->bind_param("sssss", $deliverytype, $deliverylocation, $deliverydate, $deliverytime, $customerid);
                             $stmt->execute();
-                            header('Location: http://localhost/AutomobileWebProject/payment.php');
+                            header('Location: /AutomobileWebProject/payment.php');
                             exit;
                         }else{
-                            header('Location: http://localhost/AutomobileWebProject/ordersuccessful.php');
+                            header('Location: /AutomobileWebProject/ordersuccessful.php');
                             exit;
                         }
                     }else{
@@ -58,7 +58,7 @@ if (isset($_SESSION['emailcheck'])){
                         ?>
     
                         <script>
-                            location.replace("http://localhost/AutomobileWebProject/5%20loginpage.htm");
+                            location.replace("/AutomobileWebProject/5%20loginpage.htm");
                         </script>
                         <?php
                     }
@@ -76,7 +76,7 @@ if (isset($_SESSION['emailcheck'])){
     ?>
 
     <script>
-        location.replace("http://localhost/AutomobileWebProject/1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }

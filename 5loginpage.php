@@ -6,9 +6,9 @@ $apassword = $_POST['password'];
 
 if (!empty($username) || !empty($apassword)){
     $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "project";
+    $dbUsername = "id18887859_root";
+    $dbPassword = "[46L7sjAxW44!LxK";
+    $dbname = "id18887859_project";
 
     // Create Connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -29,7 +29,7 @@ if (!empty($username) || !empty($apassword)){
                     ?>
                     
                 <script>
-                    location.replace("http://localhost/AutomobileWebProject/adminconn.php");
+                    location.replace("/AutomobileWebProject/adminconn.php");
                 </script>
                 <?php
         
@@ -57,7 +57,7 @@ if (!empty($username) || !empty($apassword)){
                     echo '<script>alert("Login Successful!")</script>'; 
                     ?>
                     <script>
-                        location.replace("http://localhost/AutomobileWebProject/2%20ordermanufacturer.php");
+                        location.replace("/AutomobileWebProject/2%20ordermanufacturer.php");
                     </script>
                         
                     <?php
@@ -82,7 +82,7 @@ if (!empty($username) || !empty($apassword)){
                     ?>
                     
                 <script>
-                    location.replace("http://localhost/AutomobileWebProject/5%20loginpage.htm");
+                    location.replace("/AutomobileWebProject/5%20loginpage.htm");
                 </script>
                 <?php
                 }
@@ -92,7 +92,7 @@ if (!empty($username) || !empty($apassword)){
                 ?>
                     
                 <script>
-                    location.replace("http://localhost/AutomobileWebProject/5%20loginpage.htm");
+                    location.replace("/AutomobileWebProject/5%20loginpage.htm");
                 </script>
                 <?php
             }

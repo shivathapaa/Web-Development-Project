@@ -110,13 +110,13 @@
 
 
     <section id="banner">
-        <a href="1%20homepage.php"><img  src="images/logo2.png" class="logo"></a>
+        <a href="../index.php"><img  src="images/logo2.png" class="logo"></a>
         <div class="banner-text">
             <h1>Sorry! You've exceeded our limit.</h1>
             <p>Contact Directly!</p>
             <div class="banner-btn">
-                <a href="1%20homepage.php"><span></span>Home</a>
-                <a href="http://localhost/AutomobileWebProject/4%20aboutus.htm"><span></span>Contact Us</a>
+                <a href="../index.php"><span></span>Home</a>
+                <a href="/4%20aboutus.htm"><span></span>Contact Us</a>
             </div>
         </div>
     

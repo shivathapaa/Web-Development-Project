@@ -193,7 +193,7 @@ span.price {
 }
 </style>
     <div class="main">
-        <a href="1%20homepage.php"><img src="images/logo2.png" class="logo"></a>
+        <a href="../index.php"><img src="images/logo2.png" class="logo"></a>
         <div class="main-content">
             <h2>Payment Details</h2>
         <div class="row">

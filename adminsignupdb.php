@@ -13,9 +13,9 @@ $password2 = $_POST['password2'];
 
 if (!empty($adminfirstname) || !empty($adminlastname) || !empty($contact) || !empty($fulladdress) || !empty($adminid) || !empty($adminpassword) || !empty($password2)) {
     $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "project";
+    $dbUsername = "id18887859_root";
+    $dbPassword = "[46L7sjAxW44!LxK";
+    $dbname = "id18887859_project";
 
     // Create Connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);

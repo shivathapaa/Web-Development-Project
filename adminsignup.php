@@ -1,4 +1,3 @@
-
 <?php
 
 session_start();
@@ -8,7 +7,7 @@ if(!isset($_SESSION['adminpass'])){
     ?>
 
     <script>
-        location.replace("1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }
@@ -229,7 +228,7 @@ h1{
 
 
         <div class="logo">
-            <a href="http://localhost/AutomobileWebProject/adminconn.php"><img src="images/logo2.png" class="logo"></a>
+            <a href="/adminconn.php"><img src="images/logo2.png" class="logo"></a>
         </div>
         <div class="signupbox">
             <img src="images1/user2.png" class="signup-img">
@@ -251,7 +250,7 @@ h1{
                 <input type="password" minlength="8" name="password2" placeholder="Confirm Password" autocomplete="off" required>
                 <input type="submit" name="submit" value="Sign Up">
                 <br>
-                <a href="http://localhost/AutomobileWebProject/5%20loginpage.htm">Login</a>
+                <a href="/5%20loginpage.htm">Login</a>
             </form>
         </div>
     </body>

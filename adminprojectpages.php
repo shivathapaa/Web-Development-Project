@@ -7,7 +7,7 @@ if(!isset($_SESSION['adminpass'])){
     ?>
 
     <script>
-        location.replace("1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }
@@ -394,7 +394,7 @@ main{
                         </div>
                     </div>
                     <div class="card-footer">
-                        <a href="1%20homepage.php">Visit <p class="fa fa-external-link-square"></p></a>
+                        <a href="../index.php">Visit <p class="fa fa-external-link-square"></p></a>
                     </div>
                 </div>
                 <div class="card-single">
@@ -466,7 +466,7 @@ main{
                         </div>
                     </div>
                     <div class="card-footer">
-                        <a href="http://localhost/AutomobileWebProject/3%20project.htm">Visit <p class="fa fa-external-link-square"></p></a>
+                        <a href="/3%20project.htm">Visit <p class="fa fa-external-link-square"></p></a>
                     </div>
                 </div>
                 <div class="card-single">
@@ -478,7 +478,7 @@ main{
                         </div>
                     </div>
                     <div class="card-footer1">
-                        <a href="http://localhost/AutomobileWebProject/4%20aboutus.htm">Visit <p class="fa fa-external-link-square"></p></a>
+                        <a href="/4%20aboutus.htm">Visit <p class="fa fa-external-link-square"></p></a>
                     </div>
                 </div>
                 <div class="card-single">
@@ -490,7 +490,7 @@ main{
                         </div>
                     </div>
                     <div class="card-footer">
-                        <a href="http://localhost/AutomobileWebProject/5%20loginpage.htm">Visit <p class="fa fa-external-link-square"></p></a>
+                        <a href="/5%20loginpage.htm">Visit <p class="fa fa-external-link-square"></p></a>
                     </div>
                 </div>
                 <div class="card-single">
@@ -502,7 +502,7 @@ main{
                         </div>
                     </div>
                     <div class="card-footer">
-                        <a href="http://localhost/AutomobileWebProject/5.1%20signup.htm">Visit <p class="fa fa-external-link-square"></p></a>
+                        <a href="/5.1%20signup.htm">Visit <p class="fa fa-external-link-square"></p></a>
                     </div>
                 </div>
                 <div class="card-single">
@@ -514,7 +514,7 @@ main{
                         </div>
                     </div>
                     <div class="card-footer1">
-                        <a href="http://localhost/AutomobileWebProject/5.2%20forgetpassword.htm">Visit <p class="fa fa-external-link-square"></p></a>
+                        <a href="/5.2%20forgetpassword.htm">Visit <p class="fa fa-external-link-square"></p></a>
                     </div>
                 </div>
                 <div class="card-single">

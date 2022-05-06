@@ -6,16 +6,16 @@ if(!isset($_SESSION['adminpass'])){
     echo '<script> alert( "You are logged out!")</script>';
     ?>
     <script>
-        location.replace("http://localhost/AutomobileWebProject/1%20homepage.php");
+        location.replace("../../index.php");
     </script>
     <?php
 }
 
 
     $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "project";
+    $dbUsername = "id18887859_root";
+    $dbPassword = "[46L7sjAxW44!LxK";
+    $dbname = "id18887859_project";
 
     $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
     
@@ -29,14 +29,14 @@ if(!isset($_SESSION['adminpass'])){
         ?>
     <script>
         alert ("Row delete Successfully!");
-        location.replace("http://localhost/AutomobileWebProject/admindelivery.php");
+        location.replace("../admindelivery.php");
     </script>
     <?php
         }else{
             ?>
         <script>
             alert ("Row Delete Unsuccessful!");
-            location.replace("http://localhost/AutomobileWebProject/admindelivery.php");
+            location.replace("../admindelivery.php");
         </script>
         <?php
         }

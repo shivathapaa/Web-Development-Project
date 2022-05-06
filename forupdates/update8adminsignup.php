@@ -6,7 +6,7 @@ if(!isset($_SESSION['adminpass'])){
     echo '<script> alert( "You are logged out!")</script>';
     ?>
     <script>
-        location.replace("http://localhost/AutomobileWebProject/1%20homepage.php");
+        location.replace("../../index.php");
     </script>
     <?php
 }
@@ -393,49 +393,49 @@ text-align: center;
 <div class="sidebar">
     <div class="sidebar-header">
         <h3 class="brand">
-        <a  href="http://localhost/AutomobileWebProject/1%20homepageadmin.php"><span class="name">Two Flames</span></a>
+        <a  href="../1%20homepageadmin.php"><span class="name">Two Flames</span></a>
         </h3>
         <label for="sidebar-toggle" class="fa fa-bars"></label>
     </div>
 
     <div class="sidebar-menu">
         <ul>
-            <li><a href="http://localhost/AutomobileWebProject/1%20homepageadmin.php">
+            <li><a href="../1%20homepageadmin.php">
                     <span class="ti-home"></span>
                     <span>Home</span>
                 </a>
             </li>
-            <li><a href="http://localhost/adminconn.php">
+            <li><a href="../adminconn.php">
                     <span class="fa fa-bar-chart"></span>
                     <span>Overview</span>
                 </a>
             </li>
-            <li><a href="http://localhost/adminorders.php">
+            <li><a href="../adminorders.php">
                     <span class="ti-clipboard"></span>
                     <span>Orders</span>
                 </a>
             </li>
-            <li><a href="http://localhost/admindelivery.php">
+            <li><a href="../admindelivery.php">
                     <span class="fa fa-shopping-cart"></span>
                     <span>Delivery</span>
                 </a>
             </li>
-            <li><a href="http://localhost/adminpaymentdetails.php">
+            <li><a href="../adminpaymentdetails.php">
                     <span class="fa fa-credit-card"></span>
                     <span>Payment</span>
                 </a>
             </li>
-            <li><a href="http://localhost/AutomobileWebProject/adminfeedback.php">
+            <li><a href="../adminfeedback.php">
                     <span class="ti-comment"></span>
                     <span>Feedback</span>
                 </a>
             </li>
-            <li><a href="http://localhost/AutomobileWebProject/adminprojectpages.php">
+            <li><a href="../adminprojectpages.php">
                     <span class="ti-folder"></span>
                     <span>Project</span>
                 </a>
             </li>
-            <li><a href="http://localhost/AutomobileWebProject/aboutus.php">
+            <li><a href="../aboutus.php">
                     <span class="fa fa-address-card-o"></span>
                     <span>Team Detail</span>
                 </a>
@@ -451,7 +451,7 @@ text-align: center;
             <div class="welcome"><p>Admin <?php echo $_SESSION['adminfirstname']; ?></p></div>
 
         <div class="social-icons">
-        <a href="http://localhost/AutomobileWebProject/adminfeedback.php"><span class="ti-comment"></span></a>
+        <a href="../adminfeedback.php"><span class="ti-comment"></span></a>
             <div></div>
         </div>
     </header>
@@ -470,9 +470,9 @@ text-align: center;
                         <h4>
                         <?php
                                 $host = "localhost";
-                                $dbUsername = "root";
-                                $dbPassword = "";
-                                $dbname = "project";
+                                $dbUsername = "id18887859_root";
+                                $dbPassword = "[46L7sjAxW44!LxK";
+                                $dbname = "id18887859_project";
 
                                 $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                 $sql = "SELECT * FROM signuppage51";
@@ -484,7 +484,7 @@ text-align: center;
                     </div>
                 </div>
                 <div class="card-footer">
-                    <a href="http://localhost/AutomobileWebProject/adminconn.php">View Below   <p class="fa fa-hand-o-down"> </p></a>
+                    <a href="../adminconn.php">View Below   <p class="fa fa-hand-o-down"> </p></a>
                 </div>
             </div>
 
@@ -496,9 +496,9 @@ text-align: center;
                         <h4>
                         <?php
                                 $host = "localhost";
-                                $dbUsername = "root";
-                                $dbPassword = "";
-                                $dbname = "project";
+                                $dbUsername = "id18887859_root";
+                                $dbPassword = "[46L7sjAxW44!LxK";
+                                $dbname = "id18887859_project";
 
                                 $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                 $sql = "SELECT * FROM ordermanufacturer";
@@ -510,7 +510,7 @@ text-align: center;
                     </div>
                 </div>
                 <div class="card-footer">
-                    <a href="http://localhost/AutomobileWebProject/adminorders.php">View all</a>
+                    <a href="../adminorders.php">View all</a>
                 </div>
             </div>
                         
@@ -522,9 +522,9 @@ text-align: center;
                         <h4>                            
                             <?php
                                 $host = "localhost";
-                                $dbUsername = "root";
-                                $dbPassword = "";
-                                $dbname = "project";
+                                $dbUsername = "id18887859_root";
+                                $dbPassword = "[46L7sjAxW44!LxK";
+                                $dbname = "id18887859_project";
 
                                 $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                 $sql = "SELECT * FROM feedback24";
@@ -534,7 +534,7 @@ text-align: center;
                     </div>
                 </div>
                 <div class="card-footer">
-                    <a href="http://localhost/AutomobileWebProject/adminfeedback.php">View all</a>
+                    <a href="../adminfeedback.php">View all</a>
                 </div>
             </div>
         </div>
@@ -545,7 +545,7 @@ text-align: center;
                 <div class="tablecontent">
                     <h2>Data Update</h2>
                     <p>Fill the deatails <br>carefully!</p><br>
-                    <a href="http://localhost/AutomobileWebProject/adminsadmin.php"><button type="button">Check Table</button></a>
+                    <a href="../adminsadmin.php"><button type="button">Check Table</button></a>
                     
                 </div>
                 <div class="update-table">
@@ -554,9 +554,9 @@ text-align: center;
                     <div class="class-table">
                     <?php
                         $host = "localhost";
-                        $dbUsername = "root";
-                        $dbPassword = "";
-                        $dbname = "project";
+                        $dbUsername = "id18887859_root";
+                        $dbPassword = "[46L7sjAxW44!LxK";
+                        $dbname = "id18887859_project";
 
                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
 
@@ -586,7 +586,7 @@ text-align: center;
                                 ?>
                                 <script>
                                     alert ("Data updated Successfully!");
-                                    location.replace("http://localhost/AutomobileWebProject/adminsadmin.php");
+                                    location.replace("../adminsadmin.php");
                                 </script>
                                 <?php
                             }else{

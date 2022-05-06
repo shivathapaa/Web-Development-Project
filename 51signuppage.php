@@ -13,9 +13,9 @@ $password2 = $_POST['password2'];
 
 if (!empty($firstname) || !empty($lastname) || !empty($contact) || !empty($fulladdress) || !empty($email) || !empty($password) || !empty($password2)) {
     $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "project";
+    $dbUsername = "id18887859_root";
+    $dbPassword = "[46L7sjAxW44!LxK";
+    $dbname = "id18887859_project";
 
     // Create Connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
@@ -45,13 +45,13 @@ if (!empty($firstname) || !empty($lastname) || !empty($contact) || !empty($fulla
                 $_SESSION['passingfirstname'] = $firstname;
                 
 
-                header('Location: http://localhost/AutomobileWebProject/2%20ordermanufacturer.php');
+                header('Location: /AutomobileWebProject/2%20ordermanufacturer.php');
                 exit;
             }else{
                 echo '<script>alert("Password doesnot match!")</script>'; 
                 ?>
                 <script>
-                    location.replace("http://localhost/AutomobileWebProject/5.1%20signup.htm");
+                    location.replace("/AutomobileWebProject/5.1%20signup.htm");
                 </script>
                     
                 <?php
@@ -69,7 +69,7 @@ if (!empty($firstname) || !empty($lastname) || !empty($contact) || !empty($fulla
                 $_SESSION['errorname'] = $email_pass['firstname'];
                }
             }
-            header('Location: http://localhost/AutomobileWebProject/errorpage.php');
+            header('Location: /AutomobileWebProject/errorpage.php');
             exit;
         }
         $stmt->close();

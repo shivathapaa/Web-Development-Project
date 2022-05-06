@@ -6,7 +6,7 @@ if(!isset($_SESSION['adminpermission'])){
     ?>
 
     <script>
-        location.replace("1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }else{
@@ -525,9 +525,9 @@ if(!isset($_SESSION['adminpermission'])){
                                 <h4>
                                 <?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM signuppage51";
@@ -551,9 +551,9 @@ if(!isset($_SESSION['adminpermission'])){
                                 <h4>
                                 <?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM ordermanufacturer";
@@ -576,9 +576,9 @@ if(!isset($_SESSION['adminpermission'])){
                                 <h5>Feedbacks</h5>
                                 <h4>                            <?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM feedback24";
@@ -615,9 +615,9 @@ if(!isset($_SESSION['adminpermission'])){
                                     
                                     <?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM signuppage51 ORDER BY s_no";
@@ -689,9 +689,9 @@ if(!isset($_SESSION['adminpermission'])){
                                         <h5>Admin</h5>
                                         <small><?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM adminlogin";
@@ -727,9 +727,9 @@ if(!isset($_SESSION['adminpermission'])){
                                             <small>                                
                                         <?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM loginpage5";
@@ -781,9 +781,9 @@ if(!isset($_SESSION['adminpermission'])){
                                     
                                     <?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM signuppage51 ORDER BY s_no";
@@ -833,9 +833,9 @@ if(!isset($_SESSION['adminpermission'])){
                                         <h5>Design Outline Orders</h5>
                                         <small><?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM orderpage21";
@@ -886,9 +886,9 @@ if(!isset($_SESSION['adminpermission'])){
                                         <h6>Ion Drives Electrical Engine</h6>
                                         <small><?php
                                         $host = "localhost";
-                                        $dbUsername = "root";
-                                        $dbPassword = "";
-                                        $dbname = "project";
+                                        $dbUsername = "id18887859_root";
+                                        $dbPassword = "[46L7sjAxW44!LxK";
+                                        $dbname = "id18887859_project";
 
                                         $conn = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
                                         $sql = "SELECT * FROM orderpage22";
