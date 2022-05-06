@@ -663,13 +663,13 @@
 
 
 
-    <header><a href="1%20homepage.php"><img src="images/logo2.png" class="logo"></a>
+    <header><a href="../index.php"><img src="images/logo2.png" class="logo"></a>
         <div class="navbar">
             <ul><div class="navbar-2">
-            <li><a href="1%20homepage.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><f><a href="">Order</a></li></f>
-            <li><a href="http://localhost/AutomobileWebProject/3%20project.htm">Project</a></li>
-            <li><a href="http://localhost/AutomobileWebProject/4%20aboutus.htm">About Us</a></li>
+            <li><a href="3%20project.htm">Project</a></li>
+            <li><a href="4%20aboutus.htm">About Us</a></li>
             </div>
         </ul>
         </div>
@@ -731,7 +731,7 @@
                       </datalist>
                     <br><br>
                     <input type="submit" name="submit" value="Proceed">
-                    <a href="http://localhost/AutomobileWebProject/5.1%20signup.htm">Sign Up</a><br>
+                    <a href="5.1%20signup.htm">Sign Up</a><br>
                     <a href="#manufacturer-intro">For Details Click here!</a>
                 </form>
             </div>
@@ -803,7 +803,7 @@
         <div class="footer">
             <p>You can select country form the information above.</p>
         </div>
-        <a style="text-decoration:none" href="1%20homepage.php"><img src="images/logo2.png" style="color:blue"  alt="Company Logo" class="logo2-png"></a>
+        <a style="text-decoration:none" href="../index.php"><img src="images/logo2.png" style="color:blue"  alt="Company Logo" class="logo2-png"></a>
         <figcaption>We build your imagination!</figcaption>
         <div class="copyright"><p>©ThapaKaji & Suraj</p></div>
 
