@@ -1,4 +1,3 @@
-
 <?php
 
 session_start();
@@ -8,7 +7,7 @@ if(!isset($_SESSION['adminpass'])){
     ?>
 
     <script>
-        location.replace("1%20homepage.php");
+        location.replace("../index.php");
     </script>
     <?php
 }
