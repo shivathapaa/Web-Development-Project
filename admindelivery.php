@@ -600,7 +600,7 @@ tbody tr:nth-child(even){
 
                                     if ($result->num_rows > 0) {
                                         while ($row = $result-> fetch_assoc()){
-                                            echo "<tr><td>" . $row["sn"] . "</td><td>" . $row["customerid"] . "</td><td>" . $row["deliverytype"] . "</td><td>" . $row["deliverylocation"] . "</td><td>" . $row["deliverydate"] . "</td><td>" . $row["deliverytime"] . "</td>";
+                                            echo "<tr><td>" . $row["SN"] . "</td><td>" . $row["customerid"] . "</td><td>" . $row["deliverytype"] . "</td><td>" . $row["deliverylocation"] . "</td><td>" . $row["deliverydate"] . "</td><td>" . $row["deliverytime"] . "</td>";
                                             $n = $n + 1 ;
                                             ?>
                                             <?php
@@ -608,7 +608,7 @@ tbody tr:nth-child(even){
                                                 
                                             ?>
                                         <td>
-                                            <a href="forupdates/updatepage7delivery.php?id=<?php echo $row["sn"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Update"><span class="badge success"><i class="fa fa-pencil-square-o"></i></span></a>&nbsp;&nbsp;&nbsp;<a href="forupdates/deletepage7delivery.php?id=<?php echo $row["sn"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Delete"><span class="badge success"><i class="fa fa-trash" aria-hidden="true"></i></span></a>
+                                            <a href="forupdates/updatepage7delivery.php?id=<?php echo $row["SN"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Update"><span class="badge success"><i class="fa fa-pencil-square-o"></i></span></a>&nbsp;&nbsp;&nbsp;<a href="forupdates/deletepage7delivery.php?id=<?php echo $row["SN"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Delete"><span class="badge success"><i class="fa fa-trash" aria-hidden="true"></i></span></a>
                                         </td>
                                         </tr>
                                             <?php 
@@ -616,7 +616,7 @@ tbody tr:nth-child(even){
 
                                             ?>
                                             <td>
-                                                <a href="forupdates/updatepage7delivery.php?id=<?php echo $row["sn"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Update"><span class="badge warning"><i class="fa fa-pencil-square-o"></i></span></a>&nbsp;&nbsp;&nbsp;<a href="forupdates/deletepage7delivery.php?id=<?php echo $row["sn"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Delete"><span class="badge warning"><i class="fa fa-trash" aria-hidden="true"></i></span></a>
+                                                <a href="forupdates/updatepage7delivery.php?id=<?php echo $row["SN"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Update"><span class="badge warning"><i class="fa fa-pencil-square-o"></i></span></a>&nbsp;&nbsp;&nbsp;<a href="forupdates/deletepage7delivery.php?id=<?php echo $row["SN"]; ?>" data-toggle="tooltip" data-placement="buttom" title="Delete"><span class="badge warning"><i class="fa fa-trash" aria-hidden="true"></i></span></a>
                                             </td>
                                         </tr>
                                     <?php
