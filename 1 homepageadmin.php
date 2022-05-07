@@ -29,8 +29,6 @@ if(!isset($_SESSION['adminpass'])){
 
 
 
-
-
     <style>
         *{
         margin: 0;
