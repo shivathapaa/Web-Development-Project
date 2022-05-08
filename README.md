@@ -18,17 +18,17 @@ This project is created using:
 
 ## Descriptions
 
-### ER Diagram
+ER Diagram
 <p align="center">
    <img src="https://user-images.githubusercontent.com/89457854/167252432-d2bf50e2-aa45-42bb-a6a9-b290e3c3087f.png" width="50%">
 </p>
 
-### Schema Diagram
+Schema Diagram
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89457854/167252795-e385573b-eee2-4a3b-b9c0-d5c6c553752d.png" width="50%">
 </p>
 
-## Implementation
+### Implementation
 <!-- Click on image for [video](https://youtu.be/lIcBHIgIN1I)
 <br> -->
 
