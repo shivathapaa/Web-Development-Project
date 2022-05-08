@@ -29,15 +29,18 @@ This project is created using:
 </p>
 
 ## Implementation
+<!-- Click on image for [video](https://youtu.be/lIcBHIgIN1I)
+<br> -->
 
-[<img src="https://user-images.githubusercontent.com/89457854/167308507-f1cc3fce-918a-4c9c-bf4e-9c522476cddf.jpg" width="50%">](https://youtu.be/lIcBHIgIN1I)
+[<p align="center"><img src="https://user-images.githubusercontent.com/89457854/167309827-ed78cbf0-70a0-4e48-8e1b-0dd207485900.jpg" width="50%"></p>](https://youtu.be/lIcBHIgIN1I)
 
 ## Setup
 To use this project:
 1. Install XAMPP Server
 2. Paste all the codes (except 'index.php' and 'SQL file')  in 'htdocs/AutomobileWebProject' folder under 'xampp' folder
-3. Import database codes with DB name 'id18887859_project'
-4. Open homepage using localhost as hostname 
+3. Paste 'index.php' file in 'htdocs' folder under 'xampp' folder
+4. Import database codes with DB name 'id18887859_project'
+5. Open homepage using localhost as hostname 
 
 ## Project Report
 For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/17MBpRzxh-v1ZrTflNcz7tw68RNwmra6C/view?usp=sharing "Project Report").
