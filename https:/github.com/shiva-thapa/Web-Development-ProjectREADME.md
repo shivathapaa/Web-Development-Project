@@ -29,6 +29,7 @@ This project is created using:
 </p>
 
 ## Implementation
+
 [<img src="https://user-images.githubusercontent.com/89457854/167308507-f1cc3fce-918a-4c9c-bf4e-9c522476cddf.jpg" width="50%">](https://youtu.be/lIcBHIgIN1I)
 
 ## Setup
@@ -40,7 +41,6 @@ To use this project:
 
 ## Project Report
 For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/17MBpRzxh-v1ZrTflNcz7tw68RNwmra6C/view?usp=sharing "Project Report").
-<br>
 <br>
 <br>
 ### Disclaimer
