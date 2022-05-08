@@ -42,6 +42,8 @@ To use this project:
 4. Import database codes with DB name 'id18887859_project'
 5. Open homepage using localhost as hostname 
 
+For reference check [this](https://youtu.be/lFZcEqgJa5E) video.
+
 ## Project Report
 For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/17MBpRzxh-v1ZrTflNcz7tw68RNwmra6C/view?usp=sharing "Project Report").
 <br>
