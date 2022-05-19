@@ -39,8 +39,8 @@ To use this project:
 1. Install XAMPP Server
 2. Paste all the codes (except 'index.php' and 'SQL file')  in 'htdocs/AutomobileWebProject' folder under 'xampp' folder
 3. Paste 'index.php' file in 'htdocs' folder under 'xampp' folder
-4. Create a new user account with -- Host: `localhost`  -- Database Password: `[46L7sjAxW44!LxK`  -- Database Username: `id18887859_root`
-5. Create a new database with DB name 'id18887859_project'
+4. Create a new user account with -- Host: `localhost`  -- Database_Password: `[46L7sjAxW44!LxK`  -- Database_Username: `id18887859_root`
+5. Create a new database with DB name `id18887859_project`
 6. Import database codes to the DB
 7. Open homepage using localhost as hostname 
 
