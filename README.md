@@ -47,7 +47,7 @@ To use this project:
 For reference check [this](https://youtu.be/lFZcEqgJa5E) video.
 
 ## Project Report
-For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/17MBpRzxh-v1ZrTflNcz7tw68RNwmra6C/view?usp=sharing "Project Report").
+For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/1A6KyrX6KsGZRGqjpYZpY95-bGoMnvhfj/view?usp=drivesdk "Project Report").
 <br>
 <br>
 ### Disclaimer
