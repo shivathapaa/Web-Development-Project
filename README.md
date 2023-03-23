@@ -20,19 +20,22 @@ This project is created using:
 
 ER Diagram
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/89457854/167252432-d2bf50e2-aa45-42bb-a6a9-b290e3c3087f.png" width="50%">
+   <img src="https://user-images.githubusercontent.com/89457854/167252432-d2bf50e2-aa45-42bb-a6a9-b290e3c3087f.png" width="50%" alt="ER Diagram">
 </p>
 
 Schema Diagram
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89457854/167252795-e385573b-eee2-4a3b-b9c0-d5c6c553752d.png" width="50%">
+  <img src="https://user-images.githubusercontent.com/89457854/167252795-e385573b-eee2-4a3b-b9c0-d5c6c553752d.png" width="50%" alt="Schema Diagram">
 </p>
 
-### Implementation
-<!-- Click on image for [video](https://youtu.be/lIcBHIgIN1I)
-<br> -->
+## Implementation
 
-[<p align="center"><img src="https://user-images.githubusercontent.com/89457854/167309827-ed78cbf0-70a0-4e48-8e1b-0dd207485900.jpg" width="50%"></p>](https://youtu.be/lIcBHIgIN1I)
+<p align="center">
+  <a href="https://youtu.be/lIcBHIgIN1I">
+    <img src="https://user-images.githubusercontent.com/89457854/167309827-ed78cbf0-70a0-4e48-8e1b-0dd207485900.jpg" width="50%" alt="Link for YouTube video.">
+  </a>
+</p>
+
 
 ## Setup
 To use this project:
@@ -50,5 +53,5 @@ For reference check [this](https://youtu.be/lFZcEqgJa5E) video.
 For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/1A6KyrX6KsGZRGqjpYZpY95-bGoMnvhfj/view?usp=drivesdk "Project Report").
 <br>
 <br>
-### Disclaimer
+## Disclaimer
 Images used in this project are form different sources. All the images are used for educational purpose only. I do not own any images used here, it belongs to its rightful owner.
