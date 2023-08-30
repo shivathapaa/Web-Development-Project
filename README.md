@@ -70,7 +70,16 @@ I wish to acknowledge and extend my gratitude to the original artists for their 
 
 > Kindly note that the images are not owned by the project author and are subject to the original terms and conditions defined by their creators. If you intend to use any of these images beyond the scope of this project, it is imperative to adhere to the specific terms set by the original creators.
 
-<br>
 
----
-Thank you for visiting this repository!
+
+
+## Note Regarding This Repository
+
+This project was made during the early stages of my journey into web development. At that time, I was exploring various concepts and learning through hands-on experience. While this project served as a valuable learning experience, I recognize that the code structure, reusability, and overall code quality may not meet the standards I uphold in my more recent work.
+
+Please keep in mind that my skills and approach to web development have evolved significantly since the creation of this project. I have gained a deeper understanding of code organization, best practices, and design principles. My more recent projects reflect the progress I have made as a developer.
+
+While this repository may not reflect my current abilities, I have chosen to keep it accessible as a reminder of my growth and the journey I have undertaken. If you're interested in exploring my more recent and polished work, I encourage you to take a look at my other repositories.
+
+Thank you for understanding and for considering my more recent projects as a better representation of my current skills and approach.
+
